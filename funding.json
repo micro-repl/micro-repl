@@ -1,0 +1,94 @@
+{
+  "$schema": "https://fundingjson.org/schema/v1.1.0.json",
+  "version": "v1.1.0",
+  "entity": {
+    "type": "individual",
+    "role": "owner",
+    "name": "Mahmoud Aly",
+    "email": "engma7moud3ly@gmail.com",
+    "description": "Independent software developer from Egypt with an MSc in Electrical Engineering and 8+ years of building Android and Kotlin Multiplatform apps. I create and maintain free, open-source developer tools, including Micro REPL, an IDE for programming MicroPython boards from Android, desktop and the web.",
+    "webpageUrl": {
+      "url": "https://github.com/Ma7moud3ly",
+      "wellKnown": "https://github.com/Ma7moud3ly/Ma7moud3ly/blob/main/.well-known/funding-manifest-urls"
+    }
+  },
+  "projects": [
+    {
+      "guid": "micro-repl",
+      "name": "Micro REPL",
+      "description": "Micro REPL is a free, open-source MicroPython IDE for Android, Windows, macOS, Linux and the web. It works with most boards that run MicroPython, such as the Raspberry Pi Pico and the ESP32. Students, makers and teachers plug a board into a phone or computer over USB and get a live REPL, a file explorer for the board's storage and a code editor, with nothing else to install. On Android it turns a phone into a full development tool for microcontrollers, which matters where a laptop is not available. It has been developed since 2023 and has more than 10,000 downloads on Google Play. The Google Play build alone has about 1,400 monthly, 490 weekly and 100 daily active users (Firebase Analytics). These numbers do not include the F-Droid build, which contains no analytics, the desktop apps or the web version. Funding would let its single maintainer improve the IDE and its code editor, add CircuitPython support, let users add external libraries to their boards, fix bugs and keep the app free for everyone.",
+      "webpageUrl": {
+        "url": "https://micro-repl.github.io/",
+        "wellKnown": "https://micro-repl.github.io/.well-known/funding-manifest-urls"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/micro-repl/micro-repl"
+      },
+      "licenses": [
+        "spdx:MIT"
+      ],
+      "tags": [
+        "micropython",
+        "ide",
+        "microcontroller",
+        "embedded",
+        "education",
+        "android",
+        "kotlin",
+        "developer-tools",
+        "iot",
+        "hardware"
+      ]
+    }
+  ],
+  "funding": {
+    "channels": [
+      {
+        "guid": "bank-transfer",
+        "type": "bank",
+        "address": "",
+        "description": "Direct bank transfer to my account in Egypt. Please email me for the details."
+      },
+      {
+        "guid": "github-sponsors",
+        "type": "payment-provider",
+        "address": "https://github.com/sponsors/Ma7moud3ly",
+        "description": "One-time or monthly sponsorship through GitHub Sponsors."
+      },
+      {
+        "guid": "ko-fi",
+        "type": "payment-provider",
+        "address": "https://ko-fi.com/ma7moud3ly",
+        "description": "One-time or monthly donations through Ko-fi."
+      }
+    ],
+    "plans": [
+      {
+        "guid": "maintenance-2027",
+        "status": "active",
+        "name": "Micro REPL development and maintenance (2027)",
+        "description": "About one year of part-time work: improving the IDE and its code editor, adding CircuitPython support, adding support for external libraries, keeping the app working on new Android, desktop and browser versions, fixing bugs, testing on real boards, answering user issues and publishing releases on F-Droid and Google Play.",
+        "amount": 15000,
+        "currency": "USD",
+        "frequency": "one-time",
+        "channels": [
+          "bank-transfer",
+          "github-sponsors"
+        ]
+      },
+      {
+        "guid": "community-support",
+        "status": "active",
+        "name": "Community support",
+        "description": "Any amount, once or every month, from users and companies who rely on Micro REPL.",
+        "amount": 0,
+        "currency": "USD",
+        "frequency": "monthly",
+        "channels": [
+          "github-sponsors",
+          "ko-fi"
+        ]
+      }
+    ]
+  }
+}
