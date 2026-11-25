@@ -22,7 +22,7 @@ code editor, on your phone, your computer or right in the browser.
      alt="Get it on F-Droid"
      height="60">](https://f-droid.org/packages/micro.repl.ma7moud3ly/)
 
-**[Open the web version](https://ma7moud3ly.github.io/micro-repl)** ·
+**[Open the web version](https://micro-repl.github.io/)** ·
 **[Desktop downloads](https://github.com/Ma7moud3ly/micro-repl/releases/latest)**
 
 <img src="images/feature@2x.png" alt="Micro REPL on Android, Desktop and Web" width="100%" />
@@ -147,7 +147,7 @@ The packages land in `desktopApp/build/compose/binaries/`, and the jar in
 <img src="images/web/explorer-light.png" width="49%" />
 </div>
 
-**[Open the web version](https://ma7moud3ly.github.io/micro-repl)**. Connect
+**[Open the web version](https://micro-repl.github.io/)**. Connect
 opens the browser's port picker, which lists only boards and USB-serial chips.
 Ports you allowed before come back on the next visit.
 
