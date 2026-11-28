@@ -1,0 +1,33 @@
+name: Packaging / F-Droid 
+description: Build, release or packaging issues (F-Droid, reproducible builds, etc.)
+title: "[Packaging]: "
+labels: ["packaging"]
+body:
+  - type: dropdown
+    id: target
+    attributes:
+      label: Target
+      options:
+        - F-Droid
+        - Google Play
+        - GitHub Releases
+        - Desktop packages
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Version / tag
+      placeholder: e.g. 4.0.0
+    validations:
+      required: false
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What's the problem? Add build logs or links if you have them.
+    validations:
+      required: true

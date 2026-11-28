@@ -1,0 +1,49 @@
+name: Board / device support request
+description: Ask for support for a new board, firmware or device
+title: "[Support]: "
+labels: ["support-request"]
+body:
+  - type: dropdown
+    id: request-type
+    attributes:
+      label: What should be supported?
+      options:
+        - A new board
+        - Another firmware (e.g. CircuitPython)
+        - An Android device / Android version
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: name
+    attributes:
+      label: Name / model
+      description: The board, firmware or device name.
+      placeholder: e.g. ESP32-C6, CircuitPython 9, Android 6 tablet
+    validations:
+      required: true
+
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      description: Optional. A link to the board or firmware page.
+    validations:
+      required: false
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What happens when you try it now? Any error messages?
+    validations:
+      required: true
+
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshots / video
+      description: Optional.
+    validations:
+      required: false
